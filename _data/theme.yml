@@ -87,7 +87,7 @@ base-font-family: # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
-# cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/
+# cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/ 
 # the "icons" object below can override the default icons and add new icons
 # the default keys are icon-image, icon-audio, icon-video, icon-pdf, and icon-default
 # the values must match an icon svg name in "assets/lib/icons/"
