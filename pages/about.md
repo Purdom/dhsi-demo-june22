@@ -8,20 +8,24 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+{% include feature/nav-menu.html sections="Human(e) Tech;Site Tech Notes" %}
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1KM2VINWcwpo5JAuX4WwNR?utm_source=generator&theme=0" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+## Human(e) Tech
+First, a breath. One inhale, one exhale. A moment held. 
 
-## About the Collection
+For a long time, one answer seemed simple. Innovate. The assumption was: *innovation is always good. **So more is always bette***. You don’t have to be good. Just clever. Then came screen addiction; zoom exhaustion; constant surveillance; misinformation; broken democracy; commodified friendship; lost intimacy; and the erosion of creativity, thoughtfulness, and wonder.
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+The contradictions of innovation don’t call for better innovation. ***They call for deeper change***. 
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
-
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+{% include feature/pdf.html objectid="ds21-22-001" %}
 
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% comment %} {% include cb/about_the_about.md %} {% endcomment %}
+
+# Site Tech Notes
+
+Tech notes go here.
+* fonts (when I remember them, go here)
+* Banner video, [rain in gutter](https://www.pexels.com/video/raining-on-street-12244080/) by Boyan Minchev
