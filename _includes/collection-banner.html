@@ -34,10 +34,10 @@
     </div>
 </div>
 
-{% elsif page.layout == "about" and site.data.theme.featured-image %}
+{% elsif page.layout == "about" %}
 <style>
     #home-banner {
-        background-image: url('{% include image/featured-image.html %}');
+        background-image: url('{{ '/objects/glitter.gif' | relative_url }}');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
