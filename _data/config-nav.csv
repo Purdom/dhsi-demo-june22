@@ -1,6 +1,7 @@
 display_name,stub,dropdown_parent
 Home,/
-Browse,/browse.html
-Subjects,/subjects.html
-Data,/data.html
+Browse,,
+Browse,/browse.html,Browse
+Subjects,/subjects.html,Browse
+Data,/data.html,Browse
 About,/about.html
