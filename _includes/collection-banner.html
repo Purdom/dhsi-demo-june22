@@ -38,7 +38,8 @@
 <style>
     #home-banner {
         background-image: url('{{ '/objects/glitter.gif' | relative_url }}');
-        background-size: cover;
+        background-size: cover; 
+        max-height: 300px;
         background-repeat: no-repeat;
         background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
     }
