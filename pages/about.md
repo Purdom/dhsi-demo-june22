@@ -13,7 +13,7 @@ credits: true
 
 
 ## Human(e) Tech
-<div id="test_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;">
+<div id="test_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:800px;height:800px;overflow:hidden;">
 		<script type="text/javascript" charset="utf-8" src="pages/test_hype_generated_script.js"></script>
 </div>
 
